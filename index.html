@@ -179,6 +179,15 @@
 
     </section>
 
+    <section id="hero" >
+
+      <div class = "container py-2">
+        <h1 class="center">👇 We Listen to Your Feature Reuqests or Bug Reports</h1>
+
+        <iframe style="background: #fff" src="https://pdf2anki.featurebase.app" height="600" width="100%" id="featurebase-frame"></iframe>
+      </div>
+    </section>
+
 
 
 
@@ -278,7 +287,7 @@
               Convert lecture slides, notes & PowerPoints into active recall flashcards using AI.<br><br>
 
             </p>
-            <a href="https://forms.gle/NPmQdVK3MDUad8U19" target="_blank" style="text-decoration:none"><button id="myBtn"  class="download-btn"><i class="bi bi-envelope-heart-fill"></i>Feature Request / Bug Report for PDF2Anki</button></a>
+            <a href="https://pdf2anki.featurebase.app" target="_blank" style="text-decoration:none"><button id="myBtn"  class="download-btn"><i class="bi bi-envelope-heart-fill"></i>Feature Request / Bug Report for PDF2Anki</button></a>
 
           </div>
 
@@ -326,7 +335,7 @@
       </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -337,6 +346,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Importing the Featurebase SDK -->
+  <script>!(function(e,t){const a="featurebase-sdk";function n(){if(!t.getElementById(a)){var e=t.createElement("script");(e.id=a),(e.src="https://do.featurebase.app/js/sdk.js"),t.getElementsByTagName("script")[0].parentNode.insertBefore(e,t.getElementsByTagName("script")[0])}}"function"!=typeof e.Featurebase&&(e.Featurebase=function(){(e.Featurebase.q=e.Featurebase.q||[]).push(arguments)}),"complete"===t.readyState||"interactive"===t.readyState?n():t.addEventListener("DOMContentLoaded",n)})(window,document);</script>
+
+  <script>
+  Featurebase("initialize_portal_widget", {
+      organization: 'pdf2anki', // required
+      placement: 'right', // optional
+      initialPage: 'MainView', // optional
+  });
+  </script>
 
   <!-- Start of ChatBot (www.chatbot.com) code -->
 <script type="text/javascript">
