@@ -179,10 +179,12 @@
 
     </section>
 
-    <section id="hero" >
+    <section id="hero" class="align-items-center">
 
       <div class = "container py-2">
-        <h1 class="center">👇 We Listen to Your Feature Reuqests or Bug Reports</h1>
+        <h1 class="center">👇 We Listen to Your Feature Requests or Bug Reports</h1>
+        <p class="mb-2 text-center">Submit your feedback for PDF2Anki by using the dashboard below or pressing the widget at the bottom right corner. We strive to improve our app by listening to every user feedback.</p>
+
 
         <iframe style="background: #fff" src="https://pdf2anki.featurebase.app" height="600" width="100%" id="featurebase-frame"></iframe>
       </div>
@@ -348,7 +350,7 @@
   <script src="assets/js/main.js"></script>
 
   <!-- Importing the Featurebase SDK -->
-  <script>!(function(e,t){const a="featurebase-sdk";function n(){if(!t.getElementById(a)){var e=t.createElement("script");(e.id=a),(e.src="https://do.featurebase.app/js/sdk.js"),t.getElementsByTagName("script")[0].parentNode.insertBefore(e,t.getElementsByTagName("script")[0])}}"function"!=typeof e.Featurebase&&(e.Featurebase=function(){(e.Featurebase.q=e.Featurebase.q||[]).push(arguments)}),"complete"===t.readyState||"interactive"===t.readyState?n():t.addEventListener("DOMContentLoaded",n)})(window,document);</script>
+  <!-- <script>!(function(e,t){const a="featurebase-sdk";function n(){if(!t.getElementById(a)){var e=t.createElement("script");(e.id=a),(e.src="https://do.featurebase.app/js/sdk.js"),t.getElementsByTagName("script")[0].parentNode.insertBefore(e,t.getElementsByTagName("script")[0])}}"function"!=typeof e.Featurebase&&(e.Featurebase=function(){(e.Featurebase.q=e.Featurebase.q||[]).push(arguments)}),"complete"===t.readyState||"interactive"===t.readyState?n():t.addEventListener("DOMContentLoaded",n)})(window,document);</script>
 
   <script>
   Featurebase("initialize_portal_widget", {
@@ -356,18 +358,9 @@
       placement: 'right', // optional
       initialPage: 'MainView', // optional
   });
-  </script>
+  </script> -->
 
-  <!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
-    window.__be = window.__be || {};
-    window.__be.id = "63e8b65585e1c300072091d6";
-    (function() {
-        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-    })();
-</script>
+
 <!-- End of ChatBot code -->
 
 </body>
