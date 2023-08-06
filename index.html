@@ -187,6 +187,10 @@
 
 
         <a href="https://pdf2anki.featurebase.app" target="_blank" style="text-decoration:none"><button id="myBtn"  class="download-btn mb-5"><i class="bi bi-envelope-heart-fill"></i>Feature Request / Bug Report for PDF2Anki</button></a>
+        <br>
+        <button data-featurebase-changelog class="btn btn-success">
+          👀 Recent Updates and Changes to PDF2Anki
+        </button>
       </div>
     </section>
 
@@ -348,6 +352,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- Importing the Featurebase SDK -->
+  <script>!(function(e,t){const a="featurebase-sdk";function n(){if(!t.getElementById(a)){var e=t.createElement("script");(e.id=a),(e.src="https://do.featurebase.app/js/sdk.js"),t.getElementsByTagName("script")[0].parentNode.insertBefore(e,t.getElementsByTagName("script")[0])}}"function"!=typeof e.Featurebase&&(e.Featurebase=function(){(e.Featurebase.q=e.Featurebase.q||[]).push(arguments)}),"complete"===t.readyState||"interactive"===t.readyState?n():t.addEventListener("DOMContentLoaded",n)})(window,document);</script>
+
+  <script>
+  Featurebase("initialize_changelog_widget", {
+    organization: "pdf2anki", // Replace this with your featurebase organization name
+    placement: "bottom", // Choose between right, left, top, bottom placement
+    theme: "light", // Choose between dark or light theme
+
+  })
+  </script>
 
   <!-- Importing the Featurebase SDK -->
   <!-- <script>!(function(e,t){const a="featurebase-sdk";function n(){if(!t.getElementById(a)){var e=t.createElement("script");(e.id=a),(e.src="https://do.featurebase.app/js/sdk.js"),t.getElementsByTagName("script")[0].parentNode.insertBefore(e,t.getElementsByTagName("script")[0])}}"function"!=typeof e.Featurebase&&(e.Featurebase=function(){(e.Featurebase.q=e.Featurebase.q||[]).push(arguments)}),"complete"===t.readyState||"interactive"===t.readyState?n():t.addEventListener("DOMContentLoaded",n)})(window,document);</script>
