@@ -498,7 +498,11 @@ h6 {
 }
 
 .drai {
-  background-color: #43AA8B;
+  background-color: #8BD29F;
+}
+
+.savetime {
+  background-color: #76B5FF;
 }
 
 .dialoguifyfeature {
@@ -510,6 +514,39 @@ h6 {
   background-size: cover;
   background-position: right;
   background-color: #FFFCFF;
+}
+
+.herosmall {
+  font-size: 10px;
+}
+
+
+#testimonials {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px; /* Default height for mobile */
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+  #testimonials {
+    height: 730px; /* Adjusted height for desktop */
+  }
+}
+
+#testimonials1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px; /* Default height for mobile */
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+  #testimonials1 {
+    height: 700px; /* Adjusted height for desktop */
+  }
 }
 /*
 @media (max-width: 992px) {
@@ -565,7 +602,7 @@ h6 {
   width: 100%;
   position: relative;
   overflow: hidden;
-  padding: 140px 0 0 0;
+  padding: 80px 0 0 0;
 }
 
 /* #hero::before {
@@ -680,6 +717,8 @@ h6 {
 .trial-btn+.trial-btn {
   margin-left: 20px;
 }
+
+
 
 @media (max-width: 1400px) {
   #hero h1 {
